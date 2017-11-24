@@ -1,0 +1,32 @@
+* { margin: 0; padding: 0; }
+body {
+	background-color: #F1F1F1;
+}
+.clearfix { *display:inline-block; *zoom:1; }
+.clearfix:after { content:""; height:0; clear:both; display:block; visibility:hidden; }
+.waterfall {
+	width: 1200px;
+	margin: 0 auto;
+}
+.waterfall-item {
+	width: 20%;
+	float: left;
+	transition: all 0.5s;
+}
+.waterfall-img {
+	padding: 6px;
+	margin: 0 5px 10px 5px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+.waterfall-img img {
+	width: 100%;
+	height: auto;
+}
+
+
+.loading {
+	text-align: center;
+	padding: 40px 0 0; 
+	background-color: white;
+}
